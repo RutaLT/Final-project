@@ -1,0 +1,186 @@
+.header {
+  background-color: rgb(203, 235, 181);
+  width: 100%;
+  height: 2.7rem;
+  text-decoration: none;
+}
+.logo {
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0px 10px;
+  vertical-align: middle;
+  text-decoration: none;
+}
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(246, 255, 246);
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+.logo h2 {
+  font-size: x-large;
+  font-family: "Amatic SC";
+  max-width: 100%;
+}
+.about-me h3 {
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0px 10px;
+  vertical-align: middle;
+  font-family: "Amatic SC";
+  font-size: x-large;
+}
+.recipes h4 {
+  text-align: center;
+  max-width: 100%;
+  margin: 20px 0px 20px;
+  font-size: x-large;
+}
+.recipes h5 {
+  text-align: center;
+  max-width: 100%;
+  margin: 20px 0px 20px;
+  font-size: 20px;
+}
+
+.photo-grid {
+  display: grid;
+  max-width: 100%;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "first second third";
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.photo-grid h4 {
+  text-align: center;
+  max-width: 100%;
+  font-family: "Libre Franklin";
+  color: black;
+}
+.photo-grid h5 {
+  text-align: center;
+  max-width: 100%;
+  font-family: "Libre Franklin";
+  color: black;
+}
+
+.first {
+  grid-area: first;
+  padding: 1.5rem;
+}
+
+.second {
+  grid-area: second;
+  padding: 1.5rem;
+  margin-top: 4px;
+}
+
+.third {
+  grid-area: third;
+  padding: 1.5rem;
+  margin-top: 10px;
+}
+
+.about-me {
+  align-items: left;
+  text-align: left;
+  justify-items: left;
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0px 10px 100px;
+  vertical-align: middle;
+}
+
+.about-me h4 {
+  align-items: left;
+  text-align: left;
+  justify-items: left;
+  max-width: 100%;
+  height: auto;
+  margin: 0px 0px 10px 50px;
+  vertical-align: middle;
+  font-family: "Amatic SC";
+  font-size: large;
+  font-weight: 900;
+  color: black;
+}
+.menu {
+  align-items: left;
+  justify-items: left;
+  margin: 0px 1100px 0px 6rem;
+  text-decoration: none;
+}
+.portrait {
+  border-radius: 9999px;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  align-items: left;
+  justify-items: left;
+}
+
+footer {
+  padding-bottom: 2vh;
+  padding-top: 4vh;
+}
+
+.copyright,
+.impressum {
+  text-align: right;
+  font-family: "Libre Franklin";
+  size: small;
+  margin-right: 200px;
+  color: darkgrey;
+}
+
+.about-me1 {
+  align-items: left;
+  text-align: left;
+  justify-items: left;
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0px 0px 12px;
+  vertical-align: middle;
+}
+
+.about-me-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  grid-template-areas: "about-me about-me-text empty";
+  background-color: rgb(211, 247, 211);
+}
+
+.about-me-text {
+  align-items: center;
+  justify-items: center;
+  text-align: justify;
+  margin: 40px 20px 0px 100px;
+  max-width: 100%;
+  font-family: "Libre Franklin";
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  border: darkgrey;
+}
+.empty {
+  margin: 25px 20px 10px 100px;
+}
+
+.no {
+  text-decoration: none;
+}
+
+.third2 {
+  margin-top: 12px;
+}
